@@ -7,7 +7,7 @@ from telegram.ext import MessageHandler, Filters
 from glossary.classes import Glossary
 
 
-updater = Updater(token='Your token', use_context=True)
+updater = Updater(token='6576739375:AAEPCN9cRiAz7yLmND3X2LjEuCi-Jgygqzs', use_context=True)
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 dispatcher = updater.dispatcher
